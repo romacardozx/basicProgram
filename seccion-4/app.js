@@ -1,12 +1,19 @@
-//console.log('Hola Roman!');
 
-let c;
-let f = 90;
+let nombre = 'Roman';
+let apellido = 'Cardozo';
 
-c = (f - 32) * (5/9);
+let nombreCompleto = nombre + ' ' + apellido;
 
-/*c = f -32;
-c = c * (5/9);*/
+console.log(nombreCompleto);
 
 
-console.log(c);
+let a = 10;
+let b = 20;
+
+console.log(a + b);
+
+
+let activo = true;
+let despedido = false;
+
+console.log(activo + despedido);
